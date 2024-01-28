@@ -1,0 +1,40 @@
+div.pieDePagina{
+
+    background-color: #32da1c;
+    font-family: fantasy;
+    color: white;
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "izquierda medio derecha";
+}
+.derecha{
+    padding: 5px;
+    text-align: right;
+    margin: 5px;
+    grid-area: derecha;
+    
+}
+.medio{
+    margin: 5px;
+    justify-self: medio;
+    position: relative;
+
+}
+.izquierda{
+    margin: 5px;
+
+    justify-self: izuierda;
+
+}
+img{
+    position: absolute;
+    margin: auto auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+}
