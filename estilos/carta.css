@@ -1,0 +1,18 @@
+/* Este css es solo para el carta*/
+
+/* Esto es común para todas las tablas*/
+
+
+.tabla{
+    width: 80%;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table,th,td {
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+}

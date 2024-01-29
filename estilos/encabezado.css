@@ -1,16 +1,16 @@
 /* Este css es solo para el encabezado*/
 
 /* Definimos el header la letra y margen que va a tener*/
-header{
+header {
     font-family: fantasy;
     margin: 0;
-    margin-top: 110px ;
+    margin-top: 110px;
 }
 
 /* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displey que se mantendra felxible
    y se adaptara dependiendo del tamaño.*/
 #encabezado {
-    background-color: #32da1c;
+    background-color: rgb(124, 197, 118);
     padding: 10px;
     position: fixed;
     width: 100%;
@@ -19,18 +19,33 @@ header{
     top: 0;
 }
 
-li{
-    margin-right: 200px;
-}
-
 /* Definimos el tamaño y posición del logo*/
-#imagenLogo{
-    width: 50px;
-    height: auto;
+#imagenLogo {
+    width: 250px;
+    height: 90px;
     margin-right: 10px;
 }
 
 /* Esto luego se quita se pondra en su respectiva html*/
-body{
+body {
     margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: right;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
 }
