@@ -1,0 +1,21 @@
+body{
+    font-family: fantasy;
+    margin: 0;
+
+}
+
+#encabezado {
+    background-color: #32da1c;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+#imagenLogo{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
