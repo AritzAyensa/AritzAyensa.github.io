@@ -1,7 +1,49 @@
 
 div.pieDePagina{
-    background-color: #32da1c;
-    font-family: fantasy;
+    background-color: #3CBC8D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+    flex-flow: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.derecha{
+    padding: 5px;
+    text-align: right;
+    margin: 5px;
+    
+    width: 150px;
+    
+}
+.medio{
+    margin: 5px;
+    position: relative;
+    width: 40px;
+    height: auto;
+    
+}
+.izquierda{
+    margin: 5px;
+    width: 150px;
+}
+img{
+    position: absolute;
+    margin: auto auto;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+
+}
+p{
+    text-align: justify;
+}
+ /* div.pieDePagina{
+    background-color: #3CBC8D;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
 
 
@@ -10,8 +52,7 @@ div.pieDePagina{
     grid-template-rows: auto;
     grid-template-areas: 
       "izquierda medio derecha";
-      /* display: flex;
-    flex-wrap: wrap; */
+      
 }
 .derecha{
     padding: 5px;
@@ -40,4 +81,4 @@ img{
     top: 0;
     bottom: 0;
     width: 40px;
-}
+}  */

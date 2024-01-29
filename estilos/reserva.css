@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: rgb(235, 235, 235);
 }
 div.formulario{
     margin: 5px;
@@ -7,12 +8,35 @@ div.formulario{
 
 }
 select{
-    border-radius: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Trebuchet;
+
+}
+select:hover{
+    border: 2px solid #3CBC8D;
+    border-radius: 10px;
     padding: 5px;
     font-family: Trebuchet;
 
 }
 input{
-    border-radius: 17px;
+    border: 2px solid black;
+
+    border-radius: 10px;
     padding: 7px;
+}
+input:hover{
+    border: 2px solid #3CBC8D;
+
+    border-radius: 10px;
+    padding: 7px;
+}
+#enviar{
+background-color: white;
+}
+#enviar:hover{
+background-color: #3CBC8D;
+color: white;
 }
