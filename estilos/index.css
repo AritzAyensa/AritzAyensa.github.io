@@ -1,0 +1,58 @@
+.menu {
+    list-style-type: none;
+
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 20px; 
+    margin: 20px;
+    padding: 20px;
+    text-align: right;
+
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+#imagenPromocion{
+    text-align: right;
+
+}
+
+ #textoInforamtivo a {
+color: yellow;
+ } 
+
+
+  #TextoPubli{
+   text-align: center; 
+   text-transform: capitalize;
+  font-size: 33px;
+  color: white;
+
+  }
+  
+  main{
+    background-color: grey;
+  }
+  
+  
+  #Botones {
+    list-style-type: none;
+
+  }
+  
+  #Botones li {
+    display: grid;
+    margin-right: 20px; 
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+
+  }
