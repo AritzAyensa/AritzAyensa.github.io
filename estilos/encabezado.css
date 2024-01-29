@@ -7,7 +7,7 @@ header{
     margin-top: 110px ;
 }
 
-/* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displzay que se mantendra felxible
+/* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displey que se mantendra felxible
    y se adaptara dependiendo del tamaño.*/
 #encabezado {
     background-color: #32da1c;
@@ -28,4 +28,9 @@ li{
     width: 50px;
     height: auto;
     margin-right: 10px;
+}
+
+/* Esto luego se quita se pondra en su respectiva html*/
+body{
+    margin: 0;
 }
