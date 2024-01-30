@@ -1,9 +1,11 @@
 /* Este css es solo para el carta*/
 
-/* Esto es común para todas las tablas*/
+* {
+    box-sizing: border-box;
+}
 
-
-.tabla{
+/* Indica que la tabla solo va a ocupar un 80% y que va a estar centrado.*/
+.tablaPlatos {
     width: 80%;
     border: 5px solid black;
     margin-left: auto;
@@ -11,8 +13,31 @@
 
 }
 
-table,th,td {
+table {
     border: 1px solid red;
     text-align: center;
     width: 100%;
+}
+
+/* Esto lo quitare luego es solo para ver */
+th, td {
+    border: 3px solid blue;
+}
+
+/* Indicamos que todas las imagenes de platos ocupen su 100% */
+img {
+    width: 100%;
+}
+
+.intro {
+    border: 6px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: white;
+    width: 550px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
 }
