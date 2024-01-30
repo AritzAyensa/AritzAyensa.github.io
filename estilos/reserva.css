@@ -5,7 +5,12 @@ body{
 div.formulario{
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+div.formulario > img {
+    
 }
 select{
     border: 2px solid black;
@@ -15,7 +20,7 @@ select{
 
 }
 select:hover{
-    border: 2px solid #3CBC8D;
+    border: 2px solid rgb(124, 197, 118);
     border-radius: 10px;
     padding: 5px;
     font-family: Trebuchet;
@@ -39,4 +44,23 @@ background-color: white;
 #enviar:hover{
 background-color: #3CBC8D;
 color: white;
+}
+
+/* BOTONES */
+.botones{
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}   
+.botones > a{
+    margin: 5px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(124, 197, 118);;
+    padding: 20px;
+    text-decoration: none;
 }

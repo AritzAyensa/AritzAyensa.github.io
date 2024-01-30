@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+}
+p{
+    margin: 10px;
+}
+
+
+/* BOTONES */
+.botones{
+
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}   
+.botones > a{
+    margin: 5px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(124, 197, 118);;
+    padding: 20px;
+    text-decoration: none;
+
+}
