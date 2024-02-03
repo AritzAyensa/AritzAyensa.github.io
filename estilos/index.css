@@ -1,10 +1,12 @@
 *{
   box-sizing: border-box;
+  
 }
 #antesImagen{
   float: right;
   width:300px;
   padding: 5px;
+  margin: 20px;
 }
 #imagenPromocion{
 width: 100%;
@@ -16,6 +18,7 @@ text-align: justify;
 width: 80%;
 margin-left:auto ;
 margin-right:auto ;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -31,24 +34,35 @@ color: orange;
   font-size: 33px;
   color: black;
   text-decoration: underline;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   main{
-    background-color: rgb(235, 235, 235);
+    background: linear-gradient( rgb(235, 235, 235),rgb(199, 196, 196) );
   }
   
-  
-  #Botones {
-    list-style-type: none;
-
-  }
-  
-  #Botones li {
-    display: grid;
-    margin-right: 20px; 
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-
-
-  }
+*/
+#Botones {
+  list-style-type: none;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-right: 400px;
+  justify-content: center;
+}
+#Botones li{
+  display: inline-block;
+  text-align: right;
+  background-color: rgb(124, 197, 118);
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+#Botones li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
