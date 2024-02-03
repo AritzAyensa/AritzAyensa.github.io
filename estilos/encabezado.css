@@ -5,6 +5,7 @@ header {
     font-family: fantasy;
     margin: 0;
     margin-top: 110px;
+    max-width: 300px;
 }
 
 /* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displey que se mantendra felxible
@@ -28,15 +29,18 @@ header {
 
 /* Esto luego se quita se pondra en su respectiva html*/
 body {
-    margin: 0;
+    margin: 0px;
+    max-width:100% ;
 }
 
 .menu {
     list-style-type: none;
+
+
 }
 
 .menu li {
-    display: inline;
+  display: inline;
     margin-right: 20px;
     margin: 20px;
     padding: 20px;
