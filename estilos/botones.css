@@ -1,9 +1,11 @@
 .botones{
-
+    font: fantasy;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: fantasy;
+
 
     
 }   

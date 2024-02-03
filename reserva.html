@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/reserva.css">
+    <link rel="stylesheet" href="estilos/encabezado copy.css">
     <link rel="stylesheet" href="estilos/pieDePagina.css">
     <title>Document</title>
-</head>
-<body>
 
+</head>
+
+<body>
+    <header>
+        <div id="encabezado">
+            <img id="imagenLogo" src="images/LogoStandBy2.png">
+
+            <div class="menu"> 
+                <a href="index.html">INICIO</a>
+                <a href="carta.html">CARTA</a>
+                <a href="reserva.html">RESERVA</a>
+                <a href="nosotros.html">NOSOTROS</a>
+            </div>
+        </div>
+    </header>
 
     <div class="formulario">
         <p>*Rellene los siguientes campos para completar la reserva*</p>
-        
-        <br/>
+
+        <br />
         <form action="index.html" method="GET">
             <label id="nombre">Nombre:</label>
             <input type="text" name="nombre" maxlength="50">
-           
+
             <label id="apellido">Apellido:</label>
             <input type="text" id="apellido" name="apellido" maxlength="50">
             <br>
             <br>
-            
+
 
             <label for="correo">Correo:</label>
             <input type="text" name="correo" id="correo" maxlength="50">
@@ -30,10 +45,10 @@
             <br>
             <label for="telefono">Numero de telefono:</label>
             <input type="text" id="telefono" name="telefono" maxlength="9">
-        
-            <br/>
-            <br/>
-            
+
+            <br />
+            <br />
+
             <label for="hora">Hora:</label>
             <select id="hora" name="hora">
                 <option value="1">14:00</option>
@@ -47,8 +62,8 @@
                 <option value="3">22:00</option>
                 <option value="4">22:30</option>
             </select>
-            <br/>
-            <br/>
+            <br />
+            <br />
             <label for="hora">Numero de Comensales:</label>
             <select id="hora" name="hora">
                 <option value="1">1</option>
@@ -67,15 +82,15 @@
                 <option value="3">14</option>
                 <option value="4">15</option>
             </select>
-            <br/>
-            <br/>
-            
+            <br />
+            <br />
+
             <input type="submit" id="enviar">
-            
-            <br/>
-            <br/>
+
+            <br />
+            <br />
             <img src="images/ImagenRestaurante.jpeg" alt="">
-        
+
         </form>
     </div>
 
@@ -83,20 +98,24 @@
         <a href="index.html">INICIO</a>
         <a href="carta.html">CARTA</a>
         <a href="nosotros.html">NOSOTROS</a>
-        <a href="https://www.google.com/maps/place/Palacio+de+Ezpeleta/@42.817455,-1.647774,21z/data=!4m6!3m5!1s0xd5092f74f230cbd:0xb421a879b97afcf!8m2!3d42.8173627!4d-1.6477738!16s%2Fg%2F122c63xx?hl=es-ES&entry=ttu">DONDE ESTAMOS?</a>
+        <a
+            href="https://www.google.com/maps/place/Palacio+de+Ezpeleta/@42.817455,-1.647774,21z/data=!4m6!3m5!1s0xd5092f74f230cbd:0xb421a879b97afcf!8m2!3d42.8173627!4d-1.6477738!16s%2Fg%2F122c63xx?hl=es-ES&entry=ttu">DONDE
+            ESTAMOS?</a>
     </div>
 
     <div class="pieDePagina">
         <div class="izquierda">
             <p>Direccion: <a
-                href="https://www.google.com/maps/place/Palacio+de+Ezpeleta/@42.817455,-1.647774,21z/data=!4m6!3m5!1s0xd5092f74f230cbd:0xb421a879b97afcf!8m2!3d42.8173627!4d-1.6477738!16s%2Fg%2F122c63xx?hl=es-ES&entry=ttu">asdasdasdasd</a></p>
+                    href="https://www.google.com/maps/place/Palacio+de+Ezpeleta/@42.817455,-1.647774,21z/data=!4m6!3m5!1s0xd5092f74f230cbd:0xb421a879b97afcf!8m2!3d42.8173627!4d-1.6477738!16s%2Fg%2F122c63xx?hl=es-ES&entry=ttu">asdasdasdasd</a>
+            </p>
             <p>Gmail: standby@gmail.com
             </p>
             <p>Telefono: 123456789</p>
         </div>
         <div class="medio">
-            <a id="insta" href="https://www.instagram.com/"><img class="insta" src="images/insta.png" alt="instagram"></a>
-    
+            <a id="insta" href="https://www.instagram.com/"><img class="insta" src="images/insta.png"
+                    alt="instagram"></a>
+
         </div>
         <div class="derecha">
             <p>Unai Urabayen</p>
@@ -105,4 +124,5 @@
         </div>
     </div>
 </body>
+
 </html>

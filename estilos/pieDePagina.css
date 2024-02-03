@@ -8,6 +8,8 @@ div.pieDePagina{
     flex-flow: wrap;
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
+
 }
 .derecha{
     padding: 5px;
@@ -15,6 +17,8 @@ div.pieDePagina{
     margin: 5px;
     
     width: 150px;
+    border: 1px solid red;
+
     
 }
 .medio{
@@ -22,11 +26,16 @@ div.pieDePagina{
     position: relative;
     width: 40px;
     height: auto;
+    border: 1px solid red;
+
     
 }
 .izquierda{
     margin: 5px;
     width: 150px;
+    border: 1px solid red;
+
+    
 }
 .insta {
     position: absolute;
@@ -37,6 +46,7 @@ div.pieDePagina{
     top: 0;
     bottom: 0;
     width: 40px;
+    border: 1px solid red;
 
 }
 p{

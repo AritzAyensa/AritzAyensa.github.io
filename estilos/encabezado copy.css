@@ -1,0 +1,50 @@
+
+
+
+
+/* Este css es solo para el encabezado*/
+
+/* Definimos el header la letra y margen que va a tener*/
+header {
+    font-family: fantasy;
+    margin: 0;
+    
+}
+
+/* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displey que se mantendra felxible
+   y se adaptara dependiendo del tamaño.*/
+#encabezado {
+    background-color: rgb(124, 197, 118);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Definimos el tamaño y posición del logo*/
+#imagenLogo {
+    width: 350px;
+
+}
+
+.menu {
+    
+    font: fantasy;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: fantasy;
+    
+}
+
+.menu > a {
+    margin: 10px;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
