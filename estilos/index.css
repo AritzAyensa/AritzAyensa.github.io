@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  width: 100%;
+  
   
 }
 #antesImagen{
@@ -63,7 +63,8 @@ margin-right: 400px;
   margin-right: 20px;
   margin: 20px;
   padding: 20px;
-  max-width: 60px;
+  max-width: 100px;
+  text-align: center;
 }
 #Botones li a {
   text-decoration: none;
