@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  width: 100%;
   
 }
 #antesImagen{
@@ -30,12 +31,13 @@ color: orange;
 
 
   #TextoPubli{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center; 
    text-transform: capitalize;
   font-size: 33px;
   color: black;
   text-decoration: underline;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
   }
   
   main{
@@ -61,11 +63,55 @@ margin-right: 400px;
   margin-right: 20px;
   margin: 20px;
   padding: 20px;
+  max-width: 60px;
 }
 #Botones li a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
+div.pieDePagina{
+  border: 1px solid black;
+  background-color: rgb(124, 197, 118);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 
+  flex-flow: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.derecha{
+  padding: 5px;
+  text-align: right;
+  margin: 5px;
+  
+  width: 150px;
+  
+}
+.medio{
+  margin: 5px;
+  position: relative;
+  width: 40px;
+  height: auto;
+  
+}
+.izquierda{
+  margin: 5px;
+  width: 150px;
+}
+.insta {
+  position: absolute;
+  margin: auto auto;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+
+}
+
+.derecha > p{
+  text-align: right;
+}
 
