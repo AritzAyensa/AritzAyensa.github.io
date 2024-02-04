@@ -1,3 +1,9 @@
+*{
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+}
 body{
     margin: 0;
     background-color: rgb(235, 235, 235);
@@ -26,4 +32,22 @@ p{
     padding: 20px;
     text-decoration: none;
 
+}
+
+#bloqueTexto{
+    max-width: 40%;
+    justify-content: left;
+    float: inline-start;
+    padding-right: 20px;
+}
+
+#imagen1{
+    float: right;
+ 
+    width: 25%;
+}
+
+#imagen2{
+  
+    width: 25%;
 }
