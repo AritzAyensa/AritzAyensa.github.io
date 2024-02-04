@@ -1,6 +1,13 @@
+
 *{
   box-sizing: border-box;
   margin: 0 ;
+}
+body{
+  width: 100%;
+}
+footer{
+  width: 100%;
 }
 #antesImagen{
   float: right;
@@ -92,5 +99,33 @@ div.pieDePagina{
 
 .derecha > p{
   text-align: right;
+}
+
+/* para moviles */
+@media only screen and (max-width: 500px) {
+
+   #antesImagen {
+    order: 2; 
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin: 20px 0;
+    padding: 5px;
+  }
+
+  #textoInforamtivo {
+    order: 1; 
+    width: 80%;
+    margin: 10px auto; 
+    text-align: justify;
+    line-height: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
+  
+
+
+/* para tablets */
+@media only screen and (min-width: 501) and (max-width: 900px) {
 }
 
