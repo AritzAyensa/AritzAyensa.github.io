@@ -16,7 +16,7 @@
         <div id="encabezado">
             <img id="imagenLogo" src="images/LogoStandBy2.png">
 
-            <div class="menu"> 
+            <div class="menu">
                 <a href="index.html">INICIO</a>
                 <a href="carta.html">CARTA</a>
                 <a href="reserva.html">RESERVA</a>
@@ -25,75 +25,328 @@
         </div>
     </header>
 
-    <div class="formulario">
-        <p>*Rellene los siguientes campos para completar la reserva*</p>
-
-        <br />
-        <form action="index.html" method="GET">
-            <label id="nombre">Nombre:</label>
-            <input type="text" name="nombre" maxlength="50">
-
-            <label id="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" maxlength="50">
-            <br>
-            <br>
-
-
-            <label for="correo">Correo:</label>
-            <input type="text" name="correo" id="correo" maxlength="50">
-            <br>
-            <br>
-            <label for="telefono">Numero de telefono:</label>
-            <input type="text" id="telefono" name="telefono" maxlength="9">
-
+    <div id="horarioYformualrio">
+        <div class="formulario">
+            <p>*Rellene los siguientes campos para completar la reserva*</p>
             <br />
             <br />
-
-            <label for="hora">Hora:</label>
-            <select id="hora" name="hora">
-                <option value="1">14:00</option>
-                <option value="2">14:30</option>
-                <option value="3">15:00</option>
-                <option value="4">15:30</option>
-                <option value="1">20:00</option>
-                <option value="2">20:30</option>
-                <option value="3">21:00</option>
-                <option value="4">21:30</option>
-                <option value="3">22:00</option>
-                <option value="4">22:30</option>
-            </select>
-            <br />
-            <br />
-            <label for="hora">Numero de Comensales:</label>
-            <select id="hora" name="hora">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="4">5</option>
-                <option value="1">6</option>
-                <option value="2">7</option>
-                <option value="3">8</option>
-                <option value="4">9</option>
-                <option value="3">10</option>
-                <option value="4">11</option>
-                <option value="2">12</option>
-                <option value="2">13</option>
-                <option value="3">14</option>
-                <option value="4">15</option>
-            </select>
-            <br />
-            <br />
-
-            <input type="submit" id="enviar">
-
-            <br />
-            <br />
-            <img src="images/ImagenRestaurante.jpeg" alt="">
-
-        </form>
+            <form action="index.html" method="GET">
+                <label id="nombre">Nombre:</label>
+                <input type="text" name="nombre" maxlength="50">
+                <br>
+                <br>
+                <label id="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" maxlength="50">
+                <br>
+                <br>
+                <label for="correo">Correo:</label>
+                <input type="text" name="correo" id="correo" maxlength="50">
+                <br>
+                <br>
+                <label for="telefono">Numero de telefono:</label>
+                <input type="text" id="telefono" name="telefono" maxlength="9">
+                <br />
+                <br />
+                <label for="hora">Dia</label>
+                <select id="hora" name="hora">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="1">6</option>
+                    <option value="2">7</option>
+                    <option value="3">8</option>
+                    <option value="4">9</option>
+                    <option value="3">10</option>
+                    <option value="4">11</option>
+                    <option value="2">12</option>
+                    <option value="2">13</option>
+                    <option value="3">14</option>
+                    <option value="4">15</option>
+                    <option value="4">16</option>
+                    <option value="4">17</option>
+                    <option value="4">18</option>
+                    <option value="4">19</option>
+                    <option value="4">20</option>
+                    <option value="4">21</option>
+                    <option value="4">22</option>
+                    <option value="4">23</option>
+                    <option value="4">24</option>
+                    <option value="4">25</option>
+                    <option value="4">26</option>
+                    <option value="4">27</option>
+                    <option value="4">28</option>
+                    <option value="4">29</option>
+                    <option value="4">30</option>
+                    <option value="4">31</option>
+                </select>
+                <br />
+                <br />
+                <label for="hora">Mes:</label>
+                <select id="hora" name="hora">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="1">6</option>
+                    <option value="2">7</option>
+                    <option value="3">8</option>
+                    <option value="4">9</option>
+                    <option value="3">10</option>
+                    <option value="4">11</option>
+                    <option value="2">12</option>
+                </select>
+                <br />
+                <br /><div id="horarios" style="overflow-x:auto;">
+                    <table>
+                        <tr>
+                            <th>HORARIOS</th>
+                            <th>LUNES</th>
+                            <th>MARTES</th>
+                            <th>MIERCOLES</th>
+                            <th>JUVES</th>
+                            <th>VIERNES</th>
+                            <th>SABADO</th>
+                        </tr>
+                        <tr>
+                            <th>14:00</th>
+                            <th><input name="hora" id="14:00/1" value="14:00/1" type="radio"></input></th>
+                            <th><input name="hora" id="14:00/2" value="14:00/2" type="radio"></input></th>
+                            <th><input name="hora" id="14:00/3" value="14:00/3" type="radio"></input></th>
+                            <th><input name="hora" id="14:00/4" value="14:00/4" type="radio"></input></th>
+                            <th><input name="hora" id="14:00/5" value="14:00/5" type="radio"></input></th>
+                            <th><input name="hora" id="14:00/6" value="14:00/6" type="radio"></input></th>
+                        </tr>
+                        <tr>
+                            <th>14:30</th>
+                            <th><input name="hora" id="14:30/1" value="14:30/1" type="radio"></input></th>
+                            <th><input name="hora" id="14:30/2" value="14:30/2" type="radio"></input></th>
+                            <th><input name="hora" id="14:30/3" value="14:30/3" type="radio"></input></th>
+                            <th><input name="hora" id="14:30/4" value="14:30/4" type="radio"></input></th>
+                            <th><input name="hora" id="14:30/5" value="14:30/5" type="radio"></input></th>
+                            <th><input name="hora" id="14:30/6" value="14:30/6" type="radio"></input></th>
+                        </tr>
+                        <tr>
+                            <th>15:00</th>
+                            <th><input name="hora" id="15:00/1" value="15:00/1" type="radio"></input></th>
+                            <th><input name="hora" id="15:00/2" value="15:00/2" type="radio"></input></th>
+                            <th><input name="hora" id="15:00/3" value="15:00/3" type="radio"></input></th>
+                            <th><input name="hora" id="15:00/4" value="15:00/4" type="radio"></input></th>
+                            <th><input name="hora" id="15:00/5" value="15:00/5" type="radio"></input></th>
+                            <th><input name="hora" id="15:00/6" value="15:00/6" type="radio"></input></th>
+                        </tr>
+                        <tr>
+                            <th>15:30</th>
+                            <th><input name="hora" id="15:30/1" value="15:30/1" type="radio"></input></th>
+                            <th><input name="hora" id="15:30/2" value="15:30/2" type="radio"></input></th>
+                            <th><input name="hora" id="15:30/3" value="15:30/3" type="radio"></input></th>
+                            <th><input name="hora" id="15:30/4" value="15:30/4" type="radio"></input></th>
+                            <th><input name="hora" id="15:30/5" value="15:30/5" type="radio"></input></th>
+                            <th><input name="hora" id="15:30/6" value="15:30/6" type="radio"></input></th>
+                        </tr>
+                        <tr>
+                            <th>20:00</th>
+                            <th rowspan="6"></th>
+                            <th><input name="hora" id="20:00/2" value="20:00/2" type="radio"></input></th>
+                            <th rowspan="6"></th>
+                            <th><input name="hora" id="20:00/4" value="20:00/4" type="radio"></input></th>
+                            <th><input name="hora" id="20:00/5" value="20:00/5" type="radio"></input></th>
+                            <th rowspan="6"></th>
+                        </tr>
+                        <tr>
+                            <th>20:30</th>
+                            
+                            <th><input name="hora" id="20:30/2" value="20:30/2" type="radio"></input></th>
+                            
+                            <th><input name="hora" id="20:30/4" value="20:30/4" type="radio"></input></th>
+                            <th><input name="hora" id="20:30/5" value="20:30/5" type="radio"></input></th>
+                           
+                        </tr>
+                        <tr>
+                            <th>21:00</th>
+                          
+                            <th><input name="hora" id="21:00/2" value="21:00/2" type="radio"></input></th>
+                           
+                            <th><input name="hora" id="21:00/4" value="21:00/4" type="radio"></input></th>
+                            <th><input name="hora" id="21:00/5" value="21:00/5" type="radio"></input></th>
+                           
+                        </tr>
+                        <tr>
+                            <th>21:30</th>
+                           
+                            <th><input name="hora" id="21:30/2" value="21:30/2" type="radio"></input></th>
+                           
+                            <th><input name="hora" id="21:30/4" value="21:30/4" type="radio"></input></th>
+                            <th><input name="hora" id="21:30/5" value="21:30/5" type="radio"></input></th>
+                           
+                        </tr>
+                        <tr>
+                            <th>22:00</th>
+                           
+                            <th><input name="hora" id="22:00/2" value="22:00/2" type="radio"></input></th>
+                           
+                            <th><input name="hora" id="22:00/4" value="22:00/4" type="radio"></input></th>
+                            <th><input name="hora" id="22:00/5" value="22:00/5" type="radio"></input></th>
+                           
+                        </tr>
+                        <tr>
+                            <th>22:30</th>
+                          
+                            <th><input name="hora" id="22:30/2" value="22:30/2" type="radio"></input></th>
+                            
+                            <th><input name="hora" id="22:30/4" value="22:30/4" type="radio"></input></th>
+                            <th><input name="hora" id="22:30/5" value="22:30/5" type="radio"></input></th>
+                              
+                        </tr>
+                    </table>
+                </div>
+                <!-- <label for="hora">Hora:</label>
+                <select id="hora" name="hora">
+                    <option value="1">14:00</option>
+                    <option value="2">14:30</option>
+                    <option value="3">15:00</option>
+                    <option value="4">15:30</option>
+                    <option value="1">20:00</option>
+                    <option value="2">20:30</option>
+                    <option value="3">21:00</option>
+                    <option value="4">21:30</option>
+                    <option value="3">22:00</option>
+                    <option value="4">22:30</option>
+                </select> -->
+                <br />
+                <br />
+                <label for="hora">Numero de Comensales:</label>
+                <select id="nºcomensales" name="nºcomensales">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="1">6</option>
+                    <option value="2">7</option>
+                    <option value="3">8</option>
+                    <option value="4">9</option>
+                    <option value="3">10</option>
+                    <option value="4">11</option>
+                    <option value="2">12</option>
+                    <option value="2">13</option>
+                    <option value="3">14</option>
+                    <option value="4">15</option>
+                </select>
+                <br />
+                <br />
+                <input type="submit" id="enviar">
+            </form>
+        </div>
+        <!-- <div id="horarios" style="overflow-x:auto;">
+            <table>
+                <tr>
+                    <th>HORARIOS</th>
+                    <th>LUNES</th>
+                    <th>MARTES</th>
+                    <th>MIERCOLES</th>
+                    <th>JUVES</th>
+                    <th>VIERNES</th>
+                    <th>SABADO</th>
+                </tr>
+                <tr>
+                    <th>14:00</th>
+                    <th><input name="14:00/1" id="14:00/1" type="radio"></input></th>
+                    <th><input name="14:00/2" id="14:00/2" type="radio"></input></th>
+                    <th><input name="14:00/3" id="14:00/3" type="radio"></input></th>
+                    <th><input name="14:00/4" id="14:00/4" type="radio"></input></th>
+                    <th><input name="14:00/5" id="14:00/5" type="radio"></input></th>
+                    <th><input name="14:00/6" id="14:00/6" type="radio"></input></th>
+                </tr>
+                <tr>
+                    <th>14:30</th>
+                    <th><input name="14:30/1" id="14:30/1" type="radio"></input></th>
+                    <th><input name="14:30/2" id="14:30/2" type="radio"></input></th>
+                    <th><input name="14:30/3" id="14:30/3" type="radio"></input></th>
+                    <th><input name="14:30/4" id="14:30/4" type="radio"></input></th>
+                    <th><input name="14:30/5" id="14:30/5" type="radio"></input></th>
+                    <th><input name="14:30/6" id="14:30/6" type="radio"></input></th>
+                </tr>
+                <tr>
+                    <th>15:00</th>
+                    <th><input name="15:00/1" id="15:00/1" type="radio"></input></th>
+                    <th><input name="15:00/2" id="15:00/2" type="radio"></input></th>
+                    <th><input name="15:00/3" id="15:00/3" type="radio"></input></th>
+                    <th><input name="15:00/4" id="15:00/4" type="radio"></input></th>
+                    <th><input name="15:00/5" id="15:00/5" type="radio"></input></th>
+                    <th><input name="15:00/6" id="15:00/6" type="radio"></input></th>
+                </tr>
+                <tr>
+                    <th>15:30</th>
+                    <th><input name="15:30/1" id="15:30/1" type="radio"></input></th>
+                    <th><input name="15:30/2" id="15:30/2" type="radio"></input></th>
+                    <th><input name="15:30/3" id="15:30/3" type="radio"></input></th>
+                    <th><input name="15:30/4" id="15:30/4" type="radio"></input></th>
+                    <th><input name="15:30/5" id="15:30/5" type="radio"></input></th>
+                    <th><input name="15:30/6" id="15:30/6" type="radio"></input></th>
+                </tr>
+                <tr>
+                    <th>20:00</th>
+                    <th></th>
+                    <th><input name="20:00/2" id="20:00/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="20:00/4" id="20:00/4" type="radio"></input></th>
+                    <th><input name="20:00/5" id="20:00/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>20:30</th>
+                    <th></th>
+                    <th><input name="20:30/2" id="20:30/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="20:30/4" id="20:30/4" type="radio"></input></th>
+                    <th><input name="20:30/5" id="20:30/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>21:00</th>
+                    <th></th>
+                    <th><input name="21:00/2" id="21:00/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="21:00/4" id="21:00/4" type="radio"></input></th>
+                    <th><input name="21:00/5" id="21:00/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>21:30</th>
+                    <th></th>
+                    <th><input name="21:30/2" id="21:30/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="21:30/4" id="21:30/4" type="radio"></input></th>
+                    <th><input name="21:30/5" id="21:30/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>22:00</th>
+                    <th></th>
+                    <th><input name="22:00/2" id="22:00/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="22:00/4" id="22:00/4" type="radio"></input></th>
+                    <th><input name="22:00/5" id="22:00/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>22:30</th>
+                    <th></th>
+                    <th><input name="22:30/2" id="22:30/2" type="radio"></input></th>
+                    <th></th>
+                    <th><input name="22:30/4" id="22:30/4" type="radio"></input></th>
+                    <th><input name="22:30/5" id="22:30/5" type="radio"></input></th>
+                    <th></th>
+                </tr>
+            </table>
+        </div> -->
     </div>
 
+</body>
+<footer>
     <div class="botones">
         <a href="index.html">INICIO</a>
         <a href="carta.html">CARTA</a>
@@ -123,6 +376,6 @@
             <p>Aritz Ayensa</p>
         </div>
     </div>
-</body>
+</footer>
 
 </html>

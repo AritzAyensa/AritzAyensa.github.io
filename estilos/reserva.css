@@ -1,13 +1,25 @@
 body{
     margin: 0;
     background-color: rgb(235, 235, 235);
+    
 }
+/* css de los bordes de la tabla */
+table, th, td{
+    border-collapse: collapse;
+  border-spacing: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+/* css de el estilo del formulario */
 div.formulario{
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
+    background-color: white;
 }
 div.formulario > img {
     
@@ -33,7 +45,7 @@ input{
     padding: 7px;
 }
 input:hover{
-    border: 2px solid #3CBC8D;
+    border: 2px solid rgb(124, 197, 118);
 
     border-radius: 10px;
     padding: 7px;
@@ -42,11 +54,11 @@ input:hover{
 background-color: white;
 }
 #enviar:hover{
-background-color: #3CBC8D;
+background-color: rgb(124, 197, 118);
 color: white;
 }
 
-/* BOTONES */
+/* css de los botones */
 .botones{
 
     margin: 10px;
@@ -64,3 +76,35 @@ color: white;
     padding: 20px;
     text-decoration: none;
 }
+
+
+/* css del media queri */
+/* @media only screen and (min-width: 770px) {
+    
+    .horarioYformulario{
+        display: flex;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+    }
+    .formulario{
+        width: 60%;
+    }
+    .horarios{
+        width: 70%;
+    }
+
+}
+
+
+    
+@media only screen and (max-width: 770px) {
+    .formulario{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) {
+
+    .formulario{
+        width: 100%;
+    }
+} */
