@@ -8,7 +8,6 @@ div.pieDePagina{
     flex-flow: wrap;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
 
 
 
@@ -19,7 +18,6 @@ div.pieDePagina{
     margin: 5px;
     
     width: 150px;
-    border: 1px solid red;
 
     
 }
@@ -28,14 +26,12 @@ div.pieDePagina{
     position: relative;
     width: 40px;
     height: auto;
-    border: 1px solid red;
 
     
 }
 .izquierda{
     margin: 5px;
     width: 150px;
-    border: 1px solid red;
 
     
 }
@@ -48,7 +44,6 @@ div.pieDePagina{
     top: 0;
     bottom: 0;
     width: 40px;
-    border: 1px solid red;
 
 }
 p{

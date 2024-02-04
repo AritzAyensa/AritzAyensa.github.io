@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#bloqueTexto {
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+}
+
+#textoYFotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#imagen2 {
+    margin: 15px;
+    width: 400px;
+
+}
+#imagen2 > img{
+    width: 100%;
+    margin: 15px;
+
+}
+
+
+
+@media only screen and (min-width: 770px) {
+
+    #bloqueTexto {
+        background-color: white;
+        border-radius: 15px;
+        width: 50%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #imagen2 {
+        position: relative;
+        width: 40%;
+        margin: 15px;
+    
+    }
+    #imagen1 {
+        width: 20%;
+        height: 200px;
+    
+    }
+    #imagen1 > img {
+        width: 200px;
+        margin: auto auto;
+        position: absolute;
+
+    
+    }
+}
+@media only screen and (max-width: 770px) {
+
+    #bloqueTexto {
+        background-color: white;
+        border-radius: 15px;
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #imagen2 {
+        position: relative;
+        width: 90%;
+        margin: 15px;
+    
+    }
+    #imagen1 {
+        width: 20%;
+        height: 200px;
+    
+    }
+    #imagen1 > img {
+        width: 200px;
+        margin: auto auto;
+        position: absolute;
+
+    
+    }
+}
+@media only screen and (max-width: 425px) {
+
+    #bloqueTexto {
+        background-color: white;
+        border-radius: 15px;
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #imagen2 {
+        position: relative;
+        width: 90%;
+    
+    }
+    #imagen1 {
+        width: 20%;
+        height: 200px;
+    
+    }
+    #imagen1 > img {
+        width: 200px;
+        margin: auto auto;
+        position: absolute;
+
+    
+    }
+}
+
