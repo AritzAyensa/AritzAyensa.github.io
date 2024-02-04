@@ -2,15 +2,44 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
+
+h1 {
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    border-radius: 15px;
+    padding: 12px;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(245, 246, 249);
+    border: 5px solid black;
+}
+
+#intro {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+    border: 2px solid rebeccapurple;
+}
+
+.introImg {
+    display: flex;
+    width: 20%;
+    border: 2px solid rebeccapurple;
+}
+
+
 
 /* Indica que la tabla solo va a ocupar un 80% y que va a estar centrado.*/
 .tablaPlatos {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border: 1px solid rosybrown;
-
 }
 
 .tablaPlatos > h2 {
@@ -27,29 +56,44 @@
 
 table {
     border: 1px solid red;
-    text-align: center;
     width: 100%;
 }
 
-/* Esto lo quitare luego es solo para ver */
 th, td {
-    border: 3px solid blue;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(245, 246, 249);
+}
+
+.platos {
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.tituloPlato {
+    font-size: 20px;
+}
+
+.precioPlato {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+
 }
 
 /* Indicamos que todas las imagenes de platos ocupen su 100% */
 img {
+    border-radius: 15px;
     width: 100%;
 }
 
-.intro {
-    border: 6px solid black;
-    border-radius: 20px;
-    padding: 12px;
-    background-color: white;
-    width: 550px;
-    margin: auto;
-}
+ul {
+    list-style: none; /* Quita las viñetas predeterminadas */
+    padding: 0; /* Elimina el relleno predeterminado */
+  }
+  
+  li {
+    margin-bottom: 10px; /* Añade un espacio entre los elementos de la lista */
+  }
 
-h1 {
-    text-align: center;
-}
