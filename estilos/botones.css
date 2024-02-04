@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     font-family: fantasy;
-
+    text-decoration: none;
 
     
 }   
@@ -16,4 +16,6 @@
     border-radius: 10px;
     background-color: rgb(124, 197, 118);;
     padding: 20px;
+    font-family: fantasy;
+    text-decoration: none;
 }

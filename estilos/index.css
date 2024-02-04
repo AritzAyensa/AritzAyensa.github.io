@@ -1,7 +1,6 @@
 *{
   box-sizing: border-box;
-  
-  
+  margin: 0 ;
 }
 #antesImagen{
   float: right;
@@ -22,6 +21,7 @@ margin-left:auto ;
 margin-right:auto ;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+
 }
 
  #textoInforamtivo a {
@@ -31,46 +31,24 @@ color: orange;
 
 
   #TextoPubli{
+ 
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center; 
    text-transform: capitalize;
   font-size: 33px;
   color: black;
   text-decoration: underline;
- 
+  
   }
   
   main{
-    background: linear-gradient( rgb(235, 235, 235),rgb(199, 196, 196) );
+    background: linear-gradient( white );
+    
+
   }
   
 */
-#Botones {
-  list-style-type: none;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-margin-right: 400px;
-  justify-content: center;
-}
-#Botones li{
-  display: inline-block;
-  text-align: right;
-  background-color: rgb(124, 197, 118);
-  border-radius: 10px;
-  border: 1px solid black;
-  margin-right: 20px;
-  margin: 20px;
-  padding: 20px;
-  max-width: 100px;
-  text-align: center;
-}
-#Botones li a {
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-}
+
 div.pieDePagina{
   border: 1px solid black;
   background-color: rgb(124, 197, 118);
