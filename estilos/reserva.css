@@ -6,9 +6,9 @@ body{
 /* css de los bordes de la tabla */
 table, th, td{
     border-collapse: collapse;
-  border-spacing: 0;
+    border-spacing: 0;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: white;
     padding: 5px;
 }
@@ -16,10 +16,10 @@ table, th, td{
 div.formulario{
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
     background-color: white;
+    
 }
 div.formulario > img {
     
@@ -77,34 +77,43 @@ color: white;
     text-decoration: none;
 }
 
+/* css fe la foto */
 
-/* css del media queri */
-/* @media only screen and (min-width: 770px) {
-    
-    .horarioYformulario{
-        display: flex;
-        flex-flow: row wrap;
-        box-sizing: border-box;
-    }
-    .formulario{
-        width: 60%;
-    }
-    .horarios{
-        width: 70%;
-    }
-
+#foto{
+    border: 1px solid red;
+    position: relative;
 }
-
-
-    
-@media only screen and (max-width: 770px) {
-    .formulario{
-        width: 100%;
-    }
+#foto > img{
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
 }
+/* css de los divs dentro de el div formulaioYfoto */
+#formularioYfoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ @media only screen and (min-width: 770px) {
+    
+    .formulario{
+        width: 40%;
+    }
+    #foto{
+        width: 50%;
+    }
+
+} 
 @media only screen and (max-width: 425px) {
 
     .formulario{
         width: 100%;
     }
-} */
+    #foto{
+        width: 100%;
+    }
+} 
