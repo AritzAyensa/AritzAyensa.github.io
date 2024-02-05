@@ -72,6 +72,7 @@ th, td {
 
 .tituloPlato {
     font-size: 20px;
+    text-align: center;
 }
 
 .precioPlato {
@@ -86,7 +87,7 @@ th, td {
 /* Indicamos que todas las imagenes de platos ocupen su 100% */
 img {
     border-radius: 15px;
-    width: 100%;
+    width: 300px;
 }
 
 ul {
