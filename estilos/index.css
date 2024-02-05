@@ -1,25 +1,29 @@
 
+/* Damo sestilo para qeu la pagina coja toda la pagina y le ponemos que sea border box para que todo mantenga su tamaño*/
 *{
   box-sizing: border-box;
   margin: 0 ;
 }
+/* hacemos que el body y el footer ocupen el 100 de su capacidad*/
 body{
   width: 100%;
 }
 footer{
   width: 100%;
 }
+/* bloque de la imagen para dejarla hacia la derecha con tamalño fijp */
 #antesImagen{
   float: right;
   width:300px;
   padding: 5px;
   margin: 20px;
 }
+/* La imagen ocupa el 100 de su capacidad en del bloque*/
 #imagenPromocion{
 width: 100%;
 
 }
-
+/* La imagen ocupa el 100 de su capacidad en del bloque*/
 #textoInforamtivo {
 
 line-height: 150%;
@@ -31,13 +35,13 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
 
 }
-
+/* cambiambos el color del link del texto*/
  #textoInforamtivo a {
 color: orange;
 align-items: center;
  } 
 
-
+/* estilo para el texto del titulo */
   #TextoPubli{
     
 margin-left: 10%;
@@ -51,6 +55,7 @@ margin-right:5% ;
   
   }
   
+  /* ponemos fondo */
   main{
     background: linear-gradient( white );
     
@@ -58,6 +63,8 @@ margin-right:5% ;
   }
   
 */
+
+/* estilo para el pie de pagina general*/
 
 div.pieDePagina{
   border: 1px solid black;
@@ -69,6 +76,7 @@ div.pieDePagina{
   display: flex;
   justify-content: space-between;
 }
+/* estilo para el pie de pagina parte derecha lops creadores*/
 .derecha{
   padding: 5px;
   text-align: right;
@@ -77,6 +85,7 @@ div.pieDePagina{
   width: 150px;
   
 }
+/* estilo para el pie de pagina parte central logo red social */
 .medio{
   margin: 5px;
   position: relative;
@@ -84,10 +93,12 @@ div.pieDePagina{
   height: auto;
   
 }
+/* estilo para el pie de pagina parte izquierda*/
 .izquierda{
   margin: 5px;
   width: 150px;
 }
+/* estilologo instagram */
 .insta {
   position: absolute;
   margin: auto auto;
@@ -100,11 +111,12 @@ div.pieDePagina{
 
 }
 
+/* Estilo para el texto derecho*/
 .derecha > p{
   text-align: right;
 }
 
-/* para moviles */
+/* resposive para moviles */
 @media only screen and (max-width: 500px) {
 
    #antesImagen {
