@@ -21,6 +21,7 @@ width: 100%;
 }
 
 #textoInforamtivo {
+
 line-height: 150%;
 text-align: justify;
 width: 80%;
@@ -33,13 +34,15 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 
  #textoInforamtivo a {
 color: orange;
-
+align-items: center;
  } 
 
 
   #TextoPubli{
- 
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+margin-left: 10%;
+margin-right: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center; 
    text-transform: capitalize;
   font-size: 33px;
