@@ -10,26 +10,31 @@ h1 {
 }
 
 #contenedor {
-    overflow: auto;
     border-radius: 15px;
     padding: 12px;
     width: 90%;
     margin: auto;
     background-color: rgb(245, 246, 249);
-    border: 5px solid black;
 }
 
-.introImg > img {
-    width: 25%;  
-    float: left;
-    border: 2px solid rebeccapurple;
+.introImg::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#imgCocina {
+   width: 310px;
+   height: 310px;
+   float: left;
+   
 }
 
 #intro {
-    text-align: center;
+    text-align: right;
+    width: 100%;
+    padding: 90px 40px;
     margin: auto;
-    padding: 40px 40px 40px 40px;
-    border: 2px solid rebeccapurple;
 }
 
 
@@ -37,7 +42,7 @@ h1 {
 .tablaPlatos {
     width: 90%;
     margin: auto;
-    border: 1px solid rosybrown;
+
 }
 
 .tablaPlatos > h2 {
@@ -53,7 +58,6 @@ h1 {
 }
 
 table {
-    border: 1px solid red;
     width: 100%;
 }
 
@@ -63,7 +67,6 @@ th, td {
 }
 
 .platos {
-    border: 1px solid blue;
     padding: 10px;
 }
 

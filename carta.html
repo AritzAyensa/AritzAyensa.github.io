@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/encabezado.css">
+    <link rel="stylesheet" href="estilos/encabezado copy.css">
     </linkrel> <!--Estilo del encabezado-->
     <link rel="stylesheet" href="estilos/carta.css">
     </linkrel> <!--Estilo de carta-->
+    <link rel="stylesheet" href="estilos/pieDePagina.css">
+    <link rel="stylesheet" href="estilos/botones.css">
     <title>Carta</title>
 </head>
 
@@ -17,12 +19,12 @@
         <div id="encabezado">
             <img id="imagenLogo" src="images/LogoStandBy2.png">
 
-            <ul class="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="carta.html">Carta</a></li>
-                <li><a href="reserva.html">Reserva</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-            </ul>
+            <div class="menu">
+                <a href="index.html">INICIO</a>
+                <a href="carta.html">CARTA</a>
+                <a href="reserva.html">RESERVA</a>
+                <a href="nosotros.html">NOSOTROS</a>
+            </div>
         </div>
     </header>
 
@@ -32,12 +34,12 @@
         <br />
         <div id="contenedor">
             <div class="introImg">
-                <img src="images/cocina-de-un-restaurante.png" alt="Imagen de nuestra cocina StnadBy">
+                <img id="imgCocina" src="images/cocina-de-un-restaurante.png" alt="Imagen de nuestra cocina StnadBy">
+                <p id="intro">Cada plato que compone nuestro menú ha sido elaborado con dedicación y pasión por la alta
+                    cocina.
+                    Desde los ingredientes más frescos hasta las técnicas más innovadoras, te invitamos a explorar una
+                    carta cuidadosamente diseñada para satisfacer los paladares más exigentes</p>
             </div>
-            <p id="intro">Cada plato que compone nuestro menú ha sido elaborado con dedicación y pasión por la alta
-                cocina.
-                Desde los ingredientes más frescos hasta las técnicas más innovadoras, te invitamos a explorar una
-                carta cuidadosamente diseñada para satisfacer los paladares más exigentes</p>
         </div>
         <br />
 
@@ -58,17 +60,23 @@
                     <td class="platos">
                         <ul>
                             <li class="tituloPlato"><strong>Croquetas de jamón ibérico</strong></li>
-                            <li></li>
+                            <br/>
                             <li class="precioPlato"><strong>3 €</strong></li>
                         </ul>
                     </td>
                     <td class="platos">
-                        <p><strong>Chorizos a la sidra</strong></p><br />
-                        <p>3€</p>
+                        <ul>
+                            <li class="tituloPlato"><strong>Chorizos a la sidra</strong></li>
+                            <br/>
+                            <li class="precioPlato"><strong>3 €</strong></li>
+                        </ul>
                     </td>
                     <td class="platos">
-                        <p><strong>Ensalada cesar</strong></p><br />
-                        <p>4,50€</p>
+                        <ul>
+                            <li class="tituloPlato"><strong>Ensalada cesar</strong></li>
+                            <br/>
+                            <li class="precioPlato"><strong>4,50 €</strong></li>
+                        </ul>
                     </td>
                 </tr>
             </table>
@@ -157,6 +165,28 @@
         </div>
     </main>
 
+    <footer>
+        <div class="pieDePagina">
+            <div class="izquierda">
+                <p>Direccion: <a
+                        href="https://www.google.com/maps/place/Palacio+de+Ezpeleta/@42.817455,-1.647774,21z/data=!4m6!3m5!1s0xd5092f74f230cbd:0xb421a879b97afcf!8m2!3d42.8173627!4d-1.6477738!16s%2Fg%2F122c63xx?hl=es-ES&entry=ttu">¡Estamos
+                        Aqui!</a></p>
+                <p>Gmail: standby@gmail.com
+                </p>
+                <p>Telefono: 123456789</p>
+            </div>
+            <div class="medio">
+                <a id="insta" href="https://www.instagram.com/"><img class="insta" src="images/insta.png"
+                        alt="instagram"></a>
+
+            </div>
+            <div class="derecha">
+                <p>Unai Urabayen</p>
+                <p>Michael Garcia</p>
+                <p>Aritz Ayensa</p>
+            </div>
+        </div>
+    </footer>
 
 
 
