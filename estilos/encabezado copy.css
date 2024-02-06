@@ -8,7 +8,7 @@
 header {
     font-family: fantasy;
     margin: 0;
-    
+    border: 1px solid black;
 }
 
 /* Definimos en este bloque de div el color, padding, la anchura, que se mantenga en un posicion fija y el displey que se mantendra felxible
@@ -37,7 +37,7 @@ header {
     
 }
 
-.menu > a {
+.menu > a{
     margin: 10px;
     padding: 20px;
     text-decoration: none;
@@ -47,8 +47,15 @@ header {
     width: 100px;
     text-align: center;
 }
-@media only screen and (max-width: 500px) {
-    .menu > a {
-        margin-right: 20px;
-    }
+/* El hover cambiara el color de la letra al pasar el cursor por encima */
+.menu > a:hover {
+    margin: 10px;
+    color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
 }
