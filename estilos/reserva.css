@@ -21,13 +21,15 @@ th, td{
 #horarios{
     width: 100%;
     margin: auto;
-    border: 1px solid red;
+    
+    overflow-x:auto;
 }#horarios > table{
     width: 100%;
     box-sizing: border-box;
     margin: 0;
 }
 /* css de el estilo del formulario */
+
 div.formulario{
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -146,7 +148,3 @@ color: white;
 
 } 
 
-.formulario {
-    border: 3px solid red;
-    width: 40%;
-}
