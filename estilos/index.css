@@ -85,7 +85,7 @@ div.pieDePagina{
   width: 150px;
   
 }
-/* estilo para el pie de pagina parte central logo red social */
+/* estilo para el pie de pagina parte central logo la red social */
 .medio{
   margin: 5px;
   position: relative;
@@ -119,6 +119,7 @@ div.pieDePagina{
 /* resposive para moviles */
 @media only screen and (max-width: 500px) {
 
+  /* con esto cambiaremos el tamaño de la imagen y su posicin de cara a dispositivos moviles */
    #antesImagen {
     order: 2; 
     float: none;
