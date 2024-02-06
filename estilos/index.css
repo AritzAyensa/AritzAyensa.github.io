@@ -55,10 +55,11 @@ margin-right:5% ;
   
   }
   
-  /* ponemos fondo */
+  /* ponemos fondo y le marcamos que coja el 100 de su capacidad */
   main{
     background: linear-gradient( white );
-    
+    width: 100%;
+    height: auto;
 
   }
   
