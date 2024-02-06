@@ -37,6 +37,7 @@ h1 {
     width: 100%;
     padding: 90px 40px;
     margin: auto;
+    border: 2px solid green;
 }
 
 
@@ -51,8 +52,6 @@ h1 {
     align-items: center;
     margin: 40px 0px 10px 0px;
     width: 100%;
- 
-  
 }
 
 .tablaPlatos > h2 > hr {
