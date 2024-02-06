@@ -1,17 +1,23 @@
 /* Este css es solo para el carta*/
 
+/* Para todos los elementos indicamos que van a tener un margen de 0px y el box-sizing
+garantiza que todos los elementos tengan un tamaño más intuitivo.*/
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+/* Todos los h1 van a estar centrados y van a tener un margen de arriba y abajo de 30px
+y a los lados de 0px*/
 h1 {
     margin: 30px 0px;
     text-align: center;
 }
 
+/* Este contenedor va a definir el tamaño que van a tener dentro, 
+que es una imagen y un texto*/
 #contenedor {
-    border-radius: 15px;
+    border-radius: 15px; 
     padding: 12px;
     width: 90%;
     margin: auto;
@@ -19,34 +25,49 @@ h1 {
     background-color: rgb(245, 246, 249);
 }
 
+/* Ayuda a que no se desborde fuera del contenedor*/
 #introImg::after {
-    content: "";
-    clear: both;
-    display: table;
+    content: ""; /*Crea espacios o líneas decorativas*/
+    clear: both; /*Evitamos que un elemento se coloque al lado de elementos flotantes en el diseño*/
+    display: table; /*Se comporta como una tabla*/
 }
 
+/* Este id indica los parametros de la imagen de inicio*/
 #imgCocina {
-    width: 100%; /* Ajuste para ocupar el ancho completo del contenedor */
-    max-width: 330px; /* Establecer un ancho máximo para mantener la proporción */
+    width: 100%; /* Ajusta para ocupar el ancho completo del contenedor*/
+    max-width: 330px; /* Establece un ancho máximo para mantener la proporción*/
     float: left;
-    border: 2px solid red;
 }
 
+/* Este id indica los parametros del texto de inicio*/
 #intro {
-    text-align: right;
+    text-align: center;
     width: 100%;
     padding: 90px 40px;
     margin: auto;
-    border: 2px solid green;
 }
 
+/* Indicamos que cuando llegue a esos pixeles se cambie los ajustes*/
+@media (max-width: 600px) {
+    #imgCocina, #intro {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #imgCocina {
+      float: none;
+      margin: auto;
+    }
+  }
 
-/* Indica que la tabla solo va a ocupar un 80% y que va a estar centrado.*/
+/* Indica que este contenedor solo va a ocupar un 90% y que va a estar centrado.*/
 .tablaPlatos {
     width: 90%;
     margin: auto;
 }
 
+/* Indica que en esta clase los h2 van a tener estas propiedades*/
 .tablaPlatos > h2 {
     display: flex;
     align-items: center;
@@ -54,36 +75,43 @@ h1 {
     width: 100%;
 }
 
+/* Indica que en esta clase los h2 de hr van a tener estas propiedades*/
 .tablaPlatos > h2 > hr {
-    flex-grow: 1;
+    flex-grow: 1; /* Tiene la capacidad de crecer para ocupar cualquier espacio adicional*/
     margin-left: 20px;
 }
 
+/* Indica que en este contenedor los h3 van a tener estas propiedades*/
 .tablaPlatos > h3 {
     margin: 30px 0px 10px 0px;
 }
 
+/* Indica que todas las tablas van a tener una anchura de 100% y 
+que no se va ver la linea que separa la tabla*/
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
+/* Todas las imagenes dentro de la tabla van a tener estas propiedades*/
 table img {
     border-radius: 15px;
     max-width: 270px;
 }
 
+/* Indica que los th y td van a tener estas propiedades*/
 th, td {
     padding: 10px;
     background-color: rgb(245, 246, 249);
     border-radius: 15px;
-    
 }
 
+/* Esta clase es para definir un padding de 10px dentro de la tabla*/
 .platos {
     padding: 10px;
 }
 
+/* Esta clase es para el titulo que se utiliza en la tabla de cada plato*/
 .tituloPlato {
     font-size: 20px;
     text-align: center;
@@ -91,6 +119,7 @@ th, td {
     height: 90px;
 }
 
+/* Esta clase es para el precio que se utiliza en la tabla de cada plato*/
 .precioPlato {
     padding: 15px;
     text-align: center;
@@ -99,18 +128,20 @@ th, td {
     background-color: white;
 }
 
-/* Indicamos que todas las imagenes de platos ocupen su 100% */
+/* Indicamos que todas las imagenes van a ocupar su 100% */
 img {
     width: 100%;
     height: auto; /* Para mantener la proporción de la imagen */
     border-radius: 15px; 
 }
 
+/* Dentro de esta clase los ul van a tener estas propiedades.*/
 .platos > ul {
     list-style: none; /* Quita las viñetas predeterminadas */
     padding: 0; /* Elimina el relleno predeterminado */
 }
-  
+
+/* Indica que en esta clase los ul de li van a tener estas propiedades*/
 .platos > ul > li {
     margin-bottom: 20px; /* Añade un espacio entre los elementos de la lista */
 }
