@@ -3,14 +3,28 @@ body{
     background-color: rgb(235, 235, 235);
     
 }
-/* css de los bordes de la tabla */
+/* css de la tabla horarios*/
 table, th, td{
-    border-collapse: collapse;
-    border-spacing: 0;
+    
     border: 1px solid black;
-    border-radius: 15px;
     background-color: white;
     padding: 5px;
+}
+table{
+    border-radius: 15px;
+    background-color: rgb(235, 235, 235);
+}
+th, td{
+    background-color: white;
+}
+#horarios{
+    width: 100%;
+    margin: auto;
+    border: 1px solid red;
+}#horarios > table{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
 }
 /* css de el estilo del formulario */
 div.formulario{
@@ -21,9 +35,7 @@ div.formulario{
     background-color: white;
     
 }
-div.formulario > img {
-    
-}
+
 select{
     border: 2px solid black;
     border-radius: 10px;
