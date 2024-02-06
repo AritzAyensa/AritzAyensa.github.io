@@ -41,7 +41,7 @@ header {
     margin: 10px;
     padding: 20px;
     text-decoration: none;
-    color: #333;
+    color: rgb(235, 235, 235);
     font-weight: bold;
     font-size: 20px;
     width: 100px;
@@ -50,7 +50,7 @@ header {
 /* El hover cambiara el color de la letra al pasar el cursor por encima */
 .menu > a:hover {
     margin: 10px;
-    color: rgb(235, 235, 235);
+    color: #cccccc;
     border-radius: 10px;
     padding: 20px;
     text-decoration: none;

@@ -4,7 +4,7 @@ div.pieDePagina{
     border: 1px solid black;
     background-color: rgb(124, 197, 118);
     font-family: fantasy;
-    color: black;
+    color: rgb(235, 235, 235);
 
     flex-flow: wrap;
     display: flex;
@@ -61,11 +61,11 @@ p{
 
 /* El hover cambiara el color de las letra de el pie de pagina al pasar el cursor por encima */
 #telefono:hover{
-    color: white;
+    color: #cccccc;
 }
 #gmail:hover{
-    color: white;
+    color: #cccccc;
 }
 #Direccion:hover{
-    color: white;
+    color: #cccccc;
 }
