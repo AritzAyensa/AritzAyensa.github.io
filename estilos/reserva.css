@@ -80,6 +80,7 @@ color: white;
     position: relative;
 }
 #foto > img{
+   
     position: absolute;
     margin: auto auto;
     top: 0;
@@ -90,9 +91,12 @@ color: white;
 }
 /* css de los divs dentro de el div formulaioYfoto */
 #formularioYfoto{
+    
     flex-flow: wrap;
     display: flex;
     justify-content: space-between;
+    
+    
 }
  @media only screen and (min-width: 770px) {
     
