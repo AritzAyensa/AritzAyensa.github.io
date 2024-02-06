@@ -34,7 +34,7 @@ div.pieDePagina{
 /* Estilo para el posicionamiento del bloque izquierdo del pie de pagina*/
 .izquierda{
     margin: 5px;
-    width: 200px;
+    width: 150px;
 
     
 }
@@ -54,7 +54,7 @@ div.pieDePagina{
 p{
     text-align: justify;
 }
-/* Posicionamos pegado a la derecha el texto del bloque derecho */
+/* Posicionamos pegado a la derecha el texto del bloque */
 .derecha > p{
     text-align: right;
 }
