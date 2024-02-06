@@ -3,8 +3,8 @@ el color de la letra sera vlanco y el pie de pagina debe adaptarse al tamaño de
 div.pieDePagina{
     border: 1px solid black;
     background-color: rgb(124, 197, 118);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    font-family: fantasy;
+    color: black;
 
     flex-flow: wrap;
     display: flex;
@@ -57,4 +57,15 @@ p{
 /* Posicionamos pegado a la derecha el texto del bloque */
 .derecha > p{
     text-align: right;
+}
+
+/* El hover cambiara el color de las letra de el pie de pagina al pasar el cursor por encima */
+#telefono:hover{
+    color: white;
+}
+#gmail:hover{
+    color: white;
+}
+#Direccion:hover{
+    color: white;
 }
