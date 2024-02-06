@@ -1,104 +1,110 @@
-
 /* Damo sestilo para qeu la pagina coja toda la pagina y le ponemos que sea border box para que todo mantenga su tamaño*/
-*{
+* {
   box-sizing: border-box;
-  margin: 0 ;
+  margin: 0;
 }
+
 /* hacemos que el body y el footer ocupen el 100 de su capacidad*/
-body{
+body {
   width: 100%;
 }
-footer{
+
+footer {
   width: 100%;
 }
+
 /* bloque de la imagen para dejarla hacia la derecha con tamalño fijp */
-#antesImagen{
+#antesImagen {
   float: right;
-  width:300px;
+  width: 300px;
   padding: 5px;
   margin: 20px;
 }
+
 /* La imagen ocupa el 100 de su capacidad en del bloque*/
-#imagenPromocion{
-width: 100%;
+#imagenPromocion {
+  width: 100%;
 
 }
+
 /* La imagen ocupa el 100 de su capacidad en del bloque*/
 #textoInforamtivo {
 
-line-height: 150%;
-text-align: justify;
-width: 80%;
-margin-left:auto ;
-margin-right:auto ;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 150%;
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 
 }
+
 /* cambiambos el color del link del texto*/
- #textoInforamtivo a {
-color: orange;
-align-items: center;
- } 
+#textoInforamtivo a {
+  color: orange;
+  align-items: center;
+}
 
 /* estilo para el texto del titulo */
-  #TextoPubli{
-    
-margin-left: 10%;
-margin-right:5% ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   text-align: center; 
-   text-transform: capitalize;
+#TextoPubli {
+
+  margin-left: 10%;
+  margin-right: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
   font-size: 33px;
   color: black;
   text-decoration: underline;
-  
-  }
-  
-  /* ponemos fondo y le marcamos que coja el 100 de su capacidad */
-  main{
-    background: linear-gradient( white );
-    width: 100%;
-    height: auto;
 
-  }
-  
+}
+
+/* ponemos fondo y le marcamos que coja el 100 de su capacidad */
+main {
+  background: linear-gradient(white);
+  width: 100%;
+  height: auto;
+
+}
+
 */
-
 /* estilo para el pie de pagina general*/
 
-div.pieDePagina{
+div.pieDePagina {
   border: 1px solid black;
   background-color: rgb(124, 197, 118);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-
   flex-flow: wrap;
   display: flex;
   justify-content: space-between;
 }
+
 /* estilo para el pie de pagina parte derecha lops creadores*/
-.derecha{
+.derecha {
   padding: 5px;
   text-align: right;
   margin: 5px;
-  
   width: 150px;
-  
+
 }
+
 /* estilo para el pie de pagina parte central logo la red social */
-.medio{
+.medio {
   margin: 5px;
   position: relative;
   width: 40px;
   height: auto;
-  
+
 }
+
 /* estilo para el pie de pagina parte izquierda*/
-.izquierda{
+.izquierda {
   margin: 5px;
   width: 150px;
 }
+
 /* estilologo instagram */
 .insta {
   position: absolute;
@@ -113,7 +119,7 @@ div.pieDePagina{
 }
 
 /* Estilo para el texto derecho*/
-.derecha > p{
+.derecha>p {
   text-align: right;
 }
 
@@ -121,8 +127,8 @@ div.pieDePagina{
 @media only screen and (max-width: 500px) {
 
   /* con esto cambiaremos el tamaño de la imagen y su posicin de cara a dispositivos moviles */
-   #antesImagen {
-    order: 2; 
+  #antesImagen {
+    order: 2;
     float: none;
     width: 100%;
     max-width: none;
@@ -131,18 +137,44 @@ div.pieDePagina{
   }
 
   #textoInforamtivo {
-    order: 1; 
+    order: 1;
     width: 80%;
-    margin: 10px auto; 
+    margin: 10px auto;
     text-align: justify;
     line-height: 150%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 }
-  
+
 
 
 /* para tablets */
-@media only screen and (min-width: 501) and (max-width: 900px) {
+@media only screen and (min-width: 501) and (max-width: 900px) {}
+
+h2 { 
+  margin: 40px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+/* Indica que en este id va a tener estas propiedades*/
+#restaurante {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px; /* La separacion de cada bloque*/
+  padding: 5px;
+  margin: auto;
+  width: 90%;
+}
+
+/* Indica que en este id los div van a tener estas propiedades*/
+#restaurante > div {
+  text-align: center;
+  padding: 5px;
+}
+/* Indica que en este id los div de img van a tener estas propiedades*/
+#restaurante > div > img {
+  height: auto;
+  width: 100%; /* Ajusta para ocupar el ancho completo del contenedor*/
+  max-width: 300px;/* Establece un ancho máximo para mantener la proporción*/
 }
 

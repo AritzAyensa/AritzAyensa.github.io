@@ -1,8 +1,0 @@
--- SE ACTUALIZA CADA VEZ QUE HAGAMOS CAMBIOS --
-
-LUNES 29 Enero --> M.G
-
-He puesto el logo.
-He movido las clases menu del index al encabezado.
-He esatdo haciendo la carta.html y la carta.css.
-
