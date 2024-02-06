@@ -1,4 +1,5 @@
-
+/* Rodeamos el pie de pagina conun  borde negro fondo berde 
+el color de la letra sera vlanco y el pie de pagina debe adaptarse al tamaño de la pagina */
 div.pieDePagina{
     border: 1px solid black;
     background-color: rgb(124, 197, 118);
@@ -10,7 +11,7 @@ div.pieDePagina{
     justify-content: space-between;
 
 
-
+/* Posicion para el bloque de la parte derecha del pie de pagina*/
 }
 .derecha{
     padding: 5px;
@@ -21,6 +22,7 @@ div.pieDePagina{
 
     
 }
+/* Estilo para el posicionamiento del bloque medio, del pie de pagina*/ 
 .medio{
     margin: 5px;
     position: relative;
@@ -29,12 +31,14 @@ div.pieDePagina{
 
     
 }
+/* Estilo para el posicionamiento del bloque izquierdo del pie de pagina*/
 .izquierda{
     margin: 5px;
     width: 150px;
 
     
 }
+/* Estilo para el logo de la red social instagram*/
 .insta {
     position: absolute;
     margin: auto auto;
@@ -46,9 +50,11 @@ div.pieDePagina{
     width: 40px;
 
 }
+/* Justificamos el texto del pie de pagina*/
 p{
     text-align: justify;
 }
+/* Posicionamos pegado a la derecha el texto del bloque derecho */
 .derecha > p{
     text-align: right;
 }

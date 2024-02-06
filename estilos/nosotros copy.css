@@ -1,30 +1,32 @@
+/*Marcamos al estilo que ocupe todo el margen que tenga la pagina para el body y le ponemos 
+un fondo blanco.*/
 body {
     margin: 0;
     background-color: rgb(235, 235, 235);
 
 }
-
+/*Centramos los h1 y le damos un estilo capitalizado a las letras */
 h1 {
     text-align: center;
     text-transform: capitalize;
 }
-
+/*Damos  un margen al bloque del texto y un espacio alrededor suya*/
 #bloqueTexto {
     margin: 10px;
     background-color: rgb(235, 235, 235);
     padding: 20px;
 }
-
+/* Para el bloque en el que se encuentran el titulo el texto y la imagen le damos un estilo adaptable*/
 #textoYFotos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+/*Le damos un tamaño al bloque quue contiene la 2. imagen*/
 #imagen2 {
     margin: 15px;
     width: 400px;
-
+/*Ponemos el tamaño de la iimagen dentro del bloque */
 }
 #imagen2 > img{
     width: 100%;
@@ -32,7 +34,7 @@ h1 {
 
 }
 
-
+/* definimos los tamaños para el deckstop*/
 @media only screen and (min-width: 770px) {
 
     #bloqueTexto {
@@ -67,6 +69,7 @@ h1 {
     
     }
 }
+/*Definimos el tamaño de las tablets, moviendo la imagen abajo*/
 @media only screen and (max-width: 770px) {
 
     #bloqueTexto {
@@ -97,6 +100,7 @@ h1 {
     
     }
 }
+/*Definimos el tamaño para moviles */
 @media only screen and (max-width: 425px) {
 
     #bloqueTexto {

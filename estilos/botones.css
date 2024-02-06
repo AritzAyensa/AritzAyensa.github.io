@@ -1,3 +1,5 @@
+/* Estilo para los botones que se encuentran e cada pagina
+estos se adaptaran y posicionaran en base al tamaño de la pagina.*/
 .botones{
     font: fantasy;
     margin: 10px;
@@ -9,6 +11,8 @@
 
     
 }   
+/* Estos estaran rodeados por un borde negro de letra blanca y fondo verde para 
+para que cuadre con el pie de pagina y los colores usados durante toda la pagina web*/
 .botones > a{
     margin: 5px;
     border: 1px solid black;
