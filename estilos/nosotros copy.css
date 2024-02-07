@@ -3,6 +3,8 @@ un fondo blanco.*/
 body {
     margin: 0;
     background-color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 /*Centramos los h1 y le damos un estilo capitalizado a las letras */
